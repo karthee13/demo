@@ -11,6 +11,6 @@ if(!empty($_POST)){
 		echo $id;
 	}
 }
-
+//echo "hi";
 
 ?>
