@@ -8,7 +8,7 @@ if(!empty($_POST)){
 		$sql="INSERT INTO REGISTRATION_FORM(NAME)VALUES('".mysql_real_escape_string($_POST['NAME'])."')";
 		$result=mysql_query($sql);
 		$id = mysql_insert_id();
-		echo $id."1";
+		echo $id."11";
 	}
 }
 //echo "hi";
